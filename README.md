@@ -23,11 +23,11 @@ The project combines a framework-independent Go core with a Wails and React desk
 
 ## Tech I Work With
 
-**Languages:** Go, TypeScript, JavaScript, Rust, SQL  
-**Desktop:** Wails, Tauri, Windows APIs, WebView2  
-**Web:** React, Vite, Fastify, Node.js  
-**Data:** SQLite, PostgreSQL, Prisma  
-**Quality and delivery:** Vitest, Playwright, ESLint, Docker Compose, GitHub Actions
+- **Languages:** Go, TypeScript, JavaScript, Rust, SQL
+- **Desktop:** Wails, Tauri, Windows APIs, WebView2
+- **Web:** React, Vite, Fastify, Node.js
+- **Data:** SQLite, PostgreSQL, Prisma
+- **Quality and delivery:** Vitest, Playwright, ESLint, Docker Compose, GitHub Actions
 
 ## Interests
 
