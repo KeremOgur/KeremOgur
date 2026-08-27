@@ -17,17 +17,29 @@ I care about local control, observable behavior, and being precise about what so
 
 ## Featured Project — Checker
 
-**Checker** is a local deterministic software verification tool. It discovers a repository's own build, test, lint, type-check, format, and CI authorities; runs supported tools through bounded structured processes; adds static and semantic analysis; and keeps the evidence behind each result.
+**Checker** is a local deterministic software verification tool built to answer a practical question: what can this repository actually prove right now? It combines a framework-independent Go core, a Wails and React desktop interface, and local SQLite evidence storage.
 
-The project combines a framework-independent Go core with a Wails and React desktop interface, local SQLite persistence, multi-language quality profiles, source-protection rules, and isolated Python verification environments. Checker reports failures, unavailable tools, unsupported behavior, and incomplete proof as different states instead of flattening them into a pass/fail score.
+Its verification system includes:
+
+- **Project-owned authority discovery** that finds explicit CI commands, recognized task scripts, manifests, and tool configuration, then preserves precedence and provenance instead of guessing a replacement command.
+- **Composable language profiles and Fast, Standard, and Full modes** for building an evidence-dependent verification portfolio across mixed-language workspaces.
+- **Real tool execution** for supported build, test, lint, type-check, format, audit, and security authorities through bounded executable-and-argument processes rather than an implicit shell.
+- **Static and semantic analysis over a shared source snapshot**, including supported API/route, event, dependency-injection, configuration, data, and schema connectivity.
+- **Framework-aware Python semantics** for explicit, version-bounded Flask, Django, and FastAPI routes, composition, dependencies, and model relationships, while dynamic behavior remains unverified.
+- **Checker-owned isolated Python environments** with explicit preparation, exact interpreter and dependency binding, and reusable sealed evidence outside project source.
+- **Source protection for write-capable checks**, with declared output boundaries and rejection when protected source or authority files change unexpectedly.
+- **Evidence-backed, fail-closed outcomes** that keep project failures, unavailable prerequisites, unsupported behavior, tool failures, stale evidence, and incomplete proof distinct.
+- **Local security analysis** with bounded scanning and secret masking before findings, logs, events, or persisted evidence leave the analysis boundary.
+
+Checker is deliberately not an AI coding assistant. It is the deterministic verification layer that evaluates project state using current repository evidence and real tools.
 
 ## Tech I Work With
 
-- **Languages:** Go, TypeScript, JavaScript, Rust, SQL
+- **Languages:** Go, TypeScript, JavaScript, Rust, C#, SQL, CSS
 - **Desktop:** Wails, Tauri, Windows APIs, WebView2
-- **Web:** React, Vite, Fastify, Node.js
+- **Web:** React, Vite, Fastify, Node.js, Tailwind CSS, TanStack Query, Zod
 - **Data:** SQLite, PostgreSQL, Prisma
-- **Quality and delivery:** Vitest, Playwright, ESLint, Docker Compose, GitHub Actions
+- **Tooling and delivery:** Vitest, Playwright, ESLint, pnpm, Turborepo, Docker Compose, GitHub Actions
 
 ## Interests
 
