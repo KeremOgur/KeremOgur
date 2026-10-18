@@ -35,9 +35,10 @@ Checker is deliberately not an AI coding assistant. It is the deterministic veri
 
 ## Tech I Work With
 
-- **Languages:** Go, TypeScript, JavaScript, Rust, C#, SQL, CSS
+- **Languages:** Python, Go, TypeScript, JavaScript, Rust, C#, SQL
 - **Desktop:** Wails, Tauri, Windows APIs, WebView2
-- **Web:** React, Vite, Fastify, Node.js, Tailwind CSS, TanStack Query, Zod
+- **Web:** React, Vite, Fastify, Node.js,
+TanStack Query, Zod
 - **Data:** SQLite, PostgreSQL, Prisma
 - **Tooling and delivery:** Vitest, Playwright, ESLint, pnpm, Turborepo, Docker Compose, GitHub Actions
 
